@@ -36,32 +36,15 @@ Air pollution has a significant impact on human health and the environment. Pred
 
 AQI categories are derived from the predicted AQI value using standard AQI classification ranges.
 
----
-
-## 🏗️ Project Structure
-
-AQI-PREDICTION-SYSTEM/
-│
-├── venv/
-├── 16_air_quality_prediction.csv
-├── app.py
-├── aqi_models.pkl
-├── scaler.pkl
-├── main.ipynb
-└── ReadMe.md
-
-
----
-
 ## 🚀 Getting Started (After Cloning)
 
-Follow these steps to run the project locally.
-
 ---
 
-### 1. Clone the Repository
+### 1. Follow these steps to run the project locally.
 
 ```bash
+
+### 1. Clone repo
 git clone <repository-url>
 cd AQI-PREDICTION-SYSTEM
 
@@ -78,3 +61,4 @@ pip install -r requirements.txt
 ### 4. Run streamlit application
 
 streamlit run app.py
+

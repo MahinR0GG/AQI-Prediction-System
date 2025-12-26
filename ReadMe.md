@@ -39,3 +39,41 @@ AQI categories are derived from the predicted AQI value using standard AQI class
 ---
 
 ## 🏗️ Project Structure
+AQI-PREDICTION-SYSTEM/
+│
+├── venv/
+├── 16_air_quality_prediction.csv
+├── app.py
+├── aqi_models.pkl
+├── scaler.pkl
+├── main.ipynb
+├── ReadMe.md
+
+
+---
+
+## 🚀 Getting Started (After Cloning)
+
+Follow these steps to run the project locally.
+
+---
+
+### 1. Clone the Repository
+
+```bash
+git clone <repository-url>
+cd AQI-PREDICTION-SYSTEM
+
+### 2. Create and activate venv
+
+python -m venv venv
+venv\Scripts\activate
+
+### 3. Install Dependencies
+
+pip install -r requirements.txt
+
+
+### 4. Run streamlit application
+
+streamlit run app.py

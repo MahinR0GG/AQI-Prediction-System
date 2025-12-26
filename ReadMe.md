@@ -39,6 +39,7 @@ AQI categories are derived from the predicted AQI value using standard AQI class
 ---
 
 ## 🏗️ Project Structure
+
 AQI-PREDICTION-SYSTEM/
 │
 ├── venv/
@@ -47,7 +48,7 @@ AQI-PREDICTION-SYSTEM/
 ├── aqi_models.pkl
 ├── scaler.pkl
 ├── main.ipynb
-├── ReadMe.md
+└── ReadMe.md
 
 
 ---
